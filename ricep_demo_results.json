@@ -31,7 +31,7 @@
       }
     },
     "legitimate_migration": {
-      "response": "new preservation event + new root",
+      "response": "new preservation and revalidation events",
       "roots": {
         "ContextRoot": "e84d0ed8f2167c81a2076847ee68463d7eed23ea818b9a3a7c78ad5dcf7bd3af",
         "DocumentRoot": "a6353ed91bf66e386a4f603c94897220525660ed017800ff5f543ef9c83c4a32",

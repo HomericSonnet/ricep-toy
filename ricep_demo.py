@@ -183,7 +183,7 @@ def scenario_roots(base_pkg):
     )
     scenarios["legitimate_migration"] = {
         "roots": compute_roots(migrated),
-        "response": "new preservation event + new root",
+        "response": "new preservation and revalidation events",
     }
 
     contextual = copy.deepcopy(base_pkg)

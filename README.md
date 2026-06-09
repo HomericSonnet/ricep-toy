@@ -14,7 +14,7 @@ university appointment-letter representation. It then computes:
 - `ValidationRoot`
 - `RecordInContextRoot`
 
-It also simulates five change scenarios for the finance-file package:
+It also simulates a baseline state plus five change scenarios for the finance-file package:
 
 - baseline state
 - silent bitstream alteration
