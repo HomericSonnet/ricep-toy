@@ -1,0 +1,568 @@
+{
+  "finance_scenarios": {
+    "baseline": {
+      "response": "current valid evidence state",
+      "roots": {
+        "ContextRoot": "e84d0ed8f2167c81a2076847ee68463d7eed23ea818b9a3a7c78ad5dcf7bd3af",
+        "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+        "PreservationRoot": "dee63a9729f0a331e3234d84ee8f8c3af872f7f410b7b2eede94d61ef3292313",
+        "RecordInContextRoot": "1c509b686fc76819be6db383336525faa51a07847a996e4db1f81e2ed4d1ee8d",
+        "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+      }
+    },
+    "bitstream_alteration": {
+      "response": "fixity failure",
+      "roots": {
+        "ContextRoot": "e84d0ed8f2167c81a2076847ee68463d7eed23ea818b9a3a7c78ad5dcf7bd3af",
+        "DocumentRoot": "b67149cefca081b37f8cf9361ba9ce395433098fae60c6d3e794394c33ebb5b1",
+        "PreservationRoot": "dee63a9729f0a331e3234d84ee8f8c3af872f7f410b7b2eede94d61ef3292313",
+        "RecordInContextRoot": "a802f7593196d6637c334299d103e8361f16e2ff9c0ae2cef87974573880405f",
+        "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+      }
+    },
+    "contextual_update": {
+      "response": "new context graph version + superseding root",
+      "roots": {
+        "ContextRoot": "e971dd3754393ccfae3a64950772d5f1062ab3e6bdc31e5f24d2d433e00b057c",
+        "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+        "PreservationRoot": "74d20813ce96c93f21563ccda85d3f56dc4c181b0e2b753666b873d079f59337",
+        "RecordInContextRoot": "66ab80430e88796119aaa4986deb75924235bebc206ed46a982cedacd78a7429",
+        "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+      }
+    },
+    "legitimate_migration": {
+      "response": "new preservation event + new root",
+      "roots": {
+        "ContextRoot": "e84d0ed8f2167c81a2076847ee68463d7eed23ea818b9a3a7c78ad5dcf7bd3af",
+        "DocumentRoot": "a6353ed91bf66e386a4f603c94897220525660ed017800ff5f543ef9c83c4a32",
+        "PreservationRoot": "e7c1cebbcb784f2233fb90ec5895771e470b063519113c71a32c76c0a0bad7ea",
+        "RecordInContextRoot": "eeebc01a99ae75165135c71cd6fc88008f1bf2d81a81d597d045ef4c3f3ee469",
+        "ValidationRoot": "6dc3ec266f3e7fbec4eb4cbbf081e70083f02cc7ee44c6b50e7933e9006755f1"
+      }
+    },
+    "procedure_update": {
+      "response": "new procedure version + revalidation",
+      "roots": {
+        "ContextRoot": "e84d0ed8f2167c81a2076847ee68463d7eed23ea818b9a3a7c78ad5dcf7bd3af",
+        "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+        "PreservationRoot": "dee63a9729f0a331e3234d84ee8f8c3af872f7f410b7b2eede94d61ef3292313",
+        "RecordInContextRoot": "c975ac9bc614f54eb2ae6718b60402eabb62b251cda2d25dd755ea28eedd85fa",
+        "ValidationRoot": "7eecc5bfe23a3f8050d54b508417d3eeace63e398557dd7e411850db5839b1a1"
+      }
+    },
+    "suspicious_context_change": {
+      "response": "contextual integrity warning",
+      "roots": {
+        "ContextRoot": "84ae2f970cab0fb35380d564072efceee45d77a383f60f95ce1dbdb6d62ed065",
+        "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+        "PreservationRoot": "dee63a9729f0a331e3234d84ee8f8c3af872f7f410b7b2eede94d61ef3292313",
+        "RecordInContextRoot": "3bd1490b83864492788b66baf962cec9655e80dac390199dccf805fc5ccc9965",
+        "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+      }
+    }
+  },
+  "package_roots": {
+    "dean": {
+      "ContextRoot": "05d89062881c321c0d8eca0ca7fad9347ee10a46c7f423ab700e1c4339d81fd9",
+      "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+      "PreservationRoot": "df4bf2e885b5a6b312ae38d2f44e0fda9fe9512ec1fa8317898cf3a5b7dac0e7",
+      "RecordInContextRoot": "bb3cda292a157df05ba9036f72254edc9bb928bb9bc8073ca43e7312fd8b101f",
+      "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+    },
+    "department": {
+      "ContextRoot": "c3958aa15111c0703961d651d5ccb0cb8e09e529bd2ab9591e445e1c56433c1e",
+      "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+      "PreservationRoot": "9a903eba1b457d22751760f2ec5378effbe91c72c6e3c7db534217de174ca0c5",
+      "RecordInContextRoot": "2256467a545d92276404c5bcac8b114f026b8d1a9364f12f8d737402b77a3e2a",
+      "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+    },
+    "employee": {
+      "ContextRoot": "2f95e71995d8797478d370259b1349d7b4e4a21b119a9f46ff16bbc6d0070c0d",
+      "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+      "PreservationRoot": "5f543a95c5895a73b26418e476c7e454f8eeb961dfbfaab571635578a450b20b",
+      "RecordInContextRoot": "270e958b368495f2bb334432a76f64d21a9d844987be74c5783a5a66fbcd2dc8",
+      "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+    },
+    "finance": {
+      "ContextRoot": "e84d0ed8f2167c81a2076847ee68463d7eed23ea818b9a3a7c78ad5dcf7bd3af",
+      "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+      "PreservationRoot": "dee63a9729f0a331e3234d84ee8f8c3af872f7f410b7b2eede94d61ef3292313",
+      "RecordInContextRoot": "1c509b686fc76819be6db383336525faa51a07847a996e4db1f81e2ed4d1ee8d",
+      "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+    },
+    "president": {
+      "ContextRoot": "4c4510a721b71e10aee889a8632b8d45879474afee4dcdeaf73c513cdc3fd6ee",
+      "DocumentRoot": "483ae373e84e199327f1d53a972ff19568abab16c22398ea19bce641a4c24526",
+      "PreservationRoot": "671c3566db5cafe336f5c795d1191ea99126c660906608323b6557b08cfcd2c3",
+      "RecordInContextRoot": "028c3cda515a2d465b38197fdf1a5989860a808e49fe65bae805b297d5eeb907",
+      "ValidationRoot": "f9a4f940a98944edba1a393b46cedc669350e5f4e36481835a35236308d42421"
+    }
+  },
+  "packages": {
+    "dean": {
+      "A": [],
+      "B": {
+        "edges": [
+          [
+            "rec:appointment-letter:dean",
+            "hasRepresentation",
+            "doc:appointment-letter:pdf-v1"
+          ],
+          [
+            "rec:appointment-letter:dean",
+            "isPartOfFile",
+            "Dean personnel file"
+          ],
+          [
+            "Dean personnel file",
+            "isPartOfSeries",
+            "series:dean:appointments"
+          ],
+          [
+            "rec:appointment-letter:dean",
+            "wasCreatedBy",
+            "Mock University HR Office"
+          ],
+          [
+            "rec:appointment-letter:dean",
+            "documentsAction",
+            "faculty appointment"
+          ]
+        ],
+        "nodes": [
+          "rec:appointment-letter:dean",
+          "doc:appointment-letter:pdf-v1",
+          "Dean personnel file",
+          "series:dean:appointments",
+          "Mock University HR Office",
+          "faculty appointment"
+        ]
+      },
+      "C": {
+        "action": "faculty appointment",
+        "creator": "Mock University HR Office",
+        "file": "Dean personnel file",
+        "record_id": "rec:appointment-letter:dean",
+        "record_role": "faculty allocation",
+        "series": "series:dean:appointments"
+      },
+      "D": {
+        "content_sha256": "0ce5d37c8501b0f8c03b963daa1726357f279739751df3d1bfcceddb3507e54e",
+        "format": "application/pdf",
+        "representation_id": "doc:appointment-letter:pdf-v1",
+        "size": 48211
+      },
+      "E": [
+        {
+          "agent": "University records system",
+          "date": "2027-08-16",
+          "event_id": "event:ingest:dean:2027-08-16",
+          "outcome": "success",
+          "type": "ingest"
+        },
+        {
+          "agent": "Preservation service",
+          "date": "2027-08-17",
+          "event_id": "event:fixity:dean:2027-08-17",
+          "outcome": "match",
+          "type": "fixity-check"
+        }
+      ],
+      "K": [
+        {
+          "key_id": "key:archives:2027",
+          "signature": "mock-signature-dean"
+        }
+      ],
+      "M": [],
+      "P": [
+        {
+          "agent": "Mock University Archives",
+          "custody": "institutional"
+        }
+      ],
+      "V": {
+        "procedure_id": "RICEP-file-membership-validation",
+        "required_relations": [
+          "record-file",
+          "file-series",
+          "record-creator",
+          "record-action"
+        ],
+        "version": "2027.1"
+      }
+    },
+    "department": {
+      "A": [],
+      "B": {
+        "edges": [
+          [
+            "rec:appointment-letter:department",
+            "hasRepresentation",
+            "doc:appointment-letter:pdf-v1"
+          ],
+          [
+            "rec:appointment-letter:department",
+            "isPartOfFile",
+            "Department workload file"
+          ],
+          [
+            "Department workload file",
+            "isPartOfSeries",
+            "series:department:appointments"
+          ],
+          [
+            "rec:appointment-letter:department",
+            "wasCreatedBy",
+            "Mock University HR Office"
+          ],
+          [
+            "rec:appointment-letter:department",
+            "documentsAction",
+            "faculty appointment"
+          ]
+        ],
+        "nodes": [
+          "rec:appointment-letter:department",
+          "doc:appointment-letter:pdf-v1",
+          "Department workload file",
+          "series:department:appointments",
+          "Mock University HR Office",
+          "faculty appointment"
+        ]
+      },
+      "C": {
+        "action": "faculty appointment",
+        "creator": "Mock University HR Office",
+        "file": "Department workload file",
+        "record_id": "rec:appointment-letter:department",
+        "record_role": "teaching/workload responsibility",
+        "series": "series:department:appointments"
+      },
+      "D": {
+        "content_sha256": "0ce5d37c8501b0f8c03b963daa1726357f279739751df3d1bfcceddb3507e54e",
+        "format": "application/pdf",
+        "representation_id": "doc:appointment-letter:pdf-v1",
+        "size": 48211
+      },
+      "E": [
+        {
+          "agent": "University records system",
+          "date": "2027-08-16",
+          "event_id": "event:ingest:department:2027-08-16",
+          "outcome": "success",
+          "type": "ingest"
+        },
+        {
+          "agent": "Preservation service",
+          "date": "2027-08-17",
+          "event_id": "event:fixity:department:2027-08-17",
+          "outcome": "match",
+          "type": "fixity-check"
+        }
+      ],
+      "K": [
+        {
+          "key_id": "key:archives:2027",
+          "signature": "mock-signature-department"
+        }
+      ],
+      "M": [],
+      "P": [
+        {
+          "agent": "Mock University Archives",
+          "custody": "institutional"
+        }
+      ],
+      "V": {
+        "procedure_id": "RICEP-file-membership-validation",
+        "required_relations": [
+          "record-file",
+          "file-series",
+          "record-creator",
+          "record-action"
+        ],
+        "version": "2027.1"
+      }
+    },
+    "employee": {
+      "A": [],
+      "B": {
+        "edges": [
+          [
+            "rec:appointment-letter:employee",
+            "hasRepresentation",
+            "doc:appointment-letter:pdf-v1"
+          ],
+          [
+            "rec:appointment-letter:employee",
+            "isPartOfFile",
+            "Employee personal file"
+          ],
+          [
+            "Employee personal file",
+            "isPartOfSeries",
+            "series:employee:appointments"
+          ],
+          [
+            "rec:appointment-letter:employee",
+            "wasCreatedBy",
+            "Mock University HR Office"
+          ],
+          [
+            "rec:appointment-letter:employee",
+            "documentsAction",
+            "faculty appointment"
+          ]
+        ],
+        "nodes": [
+          "rec:appointment-letter:employee",
+          "doc:appointment-letter:pdf-v1",
+          "Employee personal file",
+          "series:employee:appointments",
+          "Mock University HR Office",
+          "faculty appointment"
+        ]
+      },
+      "C": {
+        "action": "faculty appointment",
+        "creator": "Mock University HR Office",
+        "file": "Employee personal file",
+        "record_id": "rec:appointment-letter:employee",
+        "record_role": "personal employment status",
+        "series": "series:employee:appointments"
+      },
+      "D": {
+        "content_sha256": "0ce5d37c8501b0f8c03b963daa1726357f279739751df3d1bfcceddb3507e54e",
+        "format": "application/pdf",
+        "representation_id": "doc:appointment-letter:pdf-v1",
+        "size": 48211
+      },
+      "E": [
+        {
+          "agent": "University records system",
+          "date": "2027-08-16",
+          "event_id": "event:ingest:employee:2027-08-16",
+          "outcome": "success",
+          "type": "ingest"
+        },
+        {
+          "agent": "Preservation service",
+          "date": "2027-08-17",
+          "event_id": "event:fixity:employee:2027-08-17",
+          "outcome": "match",
+          "type": "fixity-check"
+        }
+      ],
+      "K": [
+        {
+          "key_id": "key:archives:2027",
+          "signature": "mock-signature-employee"
+        }
+      ],
+      "M": [],
+      "P": [
+        {
+          "agent": "Mock University Archives",
+          "custody": "institutional"
+        }
+      ],
+      "V": {
+        "procedure_id": "RICEP-file-membership-validation",
+        "required_relations": [
+          "record-file",
+          "file-series",
+          "record-creator",
+          "record-action"
+        ],
+        "version": "2027.1"
+      }
+    },
+    "finance": {
+      "A": [],
+      "B": {
+        "edges": [
+          [
+            "rec:appointment-letter:finance",
+            "hasRepresentation",
+            "doc:appointment-letter:pdf-v1"
+          ],
+          [
+            "rec:appointment-letter:finance",
+            "isPartOfFile",
+            "Finance salary file"
+          ],
+          [
+            "Finance salary file",
+            "isPartOfSeries",
+            "series:finance:appointments"
+          ],
+          [
+            "rec:appointment-letter:finance",
+            "wasCreatedBy",
+            "Mock University HR Office"
+          ],
+          [
+            "rec:appointment-letter:finance",
+            "documentsAction",
+            "faculty appointment"
+          ]
+        ],
+        "nodes": [
+          "rec:appointment-letter:finance",
+          "doc:appointment-letter:pdf-v1",
+          "Finance salary file",
+          "series:finance:appointments",
+          "Mock University HR Office",
+          "faculty appointment"
+        ]
+      },
+      "C": {
+        "action": "faculty appointment",
+        "creator": "Mock University HR Office",
+        "file": "Finance salary file",
+        "record_id": "rec:appointment-letter:finance",
+        "record_role": "salary activation",
+        "series": "series:finance:appointments"
+      },
+      "D": {
+        "content_sha256": "0ce5d37c8501b0f8c03b963daa1726357f279739751df3d1bfcceddb3507e54e",
+        "format": "application/pdf",
+        "representation_id": "doc:appointment-letter:pdf-v1",
+        "size": 48211
+      },
+      "E": [
+        {
+          "agent": "University records system",
+          "date": "2027-08-16",
+          "event_id": "event:ingest:finance:2027-08-16",
+          "outcome": "success",
+          "type": "ingest"
+        },
+        {
+          "agent": "Preservation service",
+          "date": "2027-08-17",
+          "event_id": "event:fixity:finance:2027-08-17",
+          "outcome": "match",
+          "type": "fixity-check"
+        }
+      ],
+      "K": [
+        {
+          "key_id": "key:archives:2027",
+          "signature": "mock-signature-finance"
+        }
+      ],
+      "M": [],
+      "P": [
+        {
+          "agent": "Mock University Archives",
+          "custody": "institutional"
+        }
+      ],
+      "V": {
+        "procedure_id": "RICEP-file-membership-validation",
+        "required_relations": [
+          "record-file",
+          "file-series",
+          "record-creator",
+          "record-action"
+        ],
+        "version": "2027.1"
+      }
+    },
+    "president": {
+      "A": [],
+      "B": {
+        "edges": [
+          [
+            "rec:appointment-letter:president",
+            "hasRepresentation",
+            "doc:appointment-letter:pdf-v1"
+          ],
+          [
+            "rec:appointment-letter:president",
+            "isPartOfFile",
+            "President hiring file"
+          ],
+          [
+            "President hiring file",
+            "isPartOfSeries",
+            "series:president:appointments"
+          ],
+          [
+            "rec:appointment-letter:president",
+            "wasCreatedBy",
+            "Mock University HR Office"
+          ],
+          [
+            "rec:appointment-letter:president",
+            "documentsAction",
+            "faculty appointment"
+          ]
+        ],
+        "nodes": [
+          "rec:appointment-letter:president",
+          "doc:appointment-letter:pdf-v1",
+          "President hiring file",
+          "series:president:appointments",
+          "Mock University HR Office",
+          "faculty appointment"
+        ]
+      },
+      "C": {
+        "action": "faculty appointment",
+        "creator": "Mock University HR Office",
+        "file": "President hiring file",
+        "record_id": "rec:appointment-letter:president",
+        "record_role": "formal appointment authority",
+        "series": "series:president:appointments"
+      },
+      "D": {
+        "content_sha256": "0ce5d37c8501b0f8c03b963daa1726357f279739751df3d1bfcceddb3507e54e",
+        "format": "application/pdf",
+        "representation_id": "doc:appointment-letter:pdf-v1",
+        "size": 48211
+      },
+      "E": [
+        {
+          "agent": "University records system",
+          "date": "2027-08-16",
+          "event_id": "event:ingest:president:2027-08-16",
+          "outcome": "success",
+          "type": "ingest"
+        },
+        {
+          "agent": "Preservation service",
+          "date": "2027-08-17",
+          "event_id": "event:fixity:president:2027-08-17",
+          "outcome": "match",
+          "type": "fixity-check"
+        }
+      ],
+      "K": [
+        {
+          "key_id": "key:archives:2027",
+          "signature": "mock-signature-president"
+        }
+      ],
+      "M": [],
+      "P": [
+        {
+          "agent": "Mock University Archives",
+          "custody": "institutional"
+        }
+      ],
+      "V": {
+        "procedure_id": "RICEP-file-membership-validation",
+        "required_relations": [
+          "record-file",
+          "file-series",
+          "record-creator",
+          "record-action"
+        ],
+        "version": "2027.1"
+      }
+    }
+  }
+}
